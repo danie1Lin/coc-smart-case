@@ -4,7 +4,7 @@ import convertWord from './convert';
 export async function activate(context: ExtensionContext): Promise<void> {
   window.showMessage(`coc-caseconvert works!`);
   context.subscriptions.push(
-    commands.registerCommand('coc-caseconvert.searchMultiCase', async () => {
+    commands.registerCommand('coc-smart-case.searchSelected', async () => {
       let { nvim } = workspace;
       let word = await nvim.eval('expand("<cword>")');
       const allCases = convertWord(word);

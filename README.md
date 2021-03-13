@@ -6,13 +6,10 @@ convert word case
 
 `:CocInstall coc-caseconvert`
 
-## Keymaps
+## Command
 
-`nmap <silent> <C-l> <Plug>(coc-coc-caseconvert-keymap)`
-
-## Lists
-
-`:CocList demo_list`
+cursor on the word you want to search with multiple case, and run
+`:CocCommand coc-smart-case.searchSelected`
 
 ## License
 
