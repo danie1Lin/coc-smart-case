@@ -4,7 +4,7 @@ convert word case
 
 ## Install
 
-`:CocInstall coc-caseconvert`
+`:CocInstall coc-smart-case`
 
 ## Command
 
