@@ -1,6 +1,6 @@
 {
   "name": "coc-smart-case",
-  "version": "0.0.0-development",
+  "version": "0.0.1-development",
   "description": "convert multi word case to search",
   "author": "daniellin <s102033114@gapp.nthu.edu.tw>",
   "license": "MIT",
@@ -59,5 +59,6 @@
   },
   "dependencies": {
     "js-convert-case": "^4.1.1"
-  }
+  },
+  "repository": "https://github.com/daniel840829/coc-smart-case"
 }
